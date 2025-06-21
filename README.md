@@ -11,56 +11,85 @@ Welcome to FitTracker Dashboard , a modern, fully responsive fitness tracking da
 
 ![Screenshot 2025-06-21 211928](https://github.com/user-attachments/assets/a03c60a1-c380-41a4-8b4a-fdca64149689)
 
-##  Features
+## 🚀 Features
 
 - 🔁 Toggle View (Daily / Weekly / Monthly)
-- 👤 User Authentication (Sign In / Sign Up + Redirect to Dashboard)
-- 🌓 Dark Mode / Light Mode – Automatically adapts or toggle manually
-- 📈 Interactive Charts (Chart.js)
+- 👤 User Authentication (Sign In / Sign Up with redirect to Dashboard)
+- 🌓 Dark Mode / Light Mode – Auto-detects or toggle manually
+- 📈 Interactive Charts using Chart.js
 - 🎯 Goal Tracking Cards for calories, workouts, water intake, etc.
 - 📋 Workout & Activity Logs
 - 💻 Material UI Cards & Layout
-- 📱 Fully Responsive Design – Works on all screen sizes
+- 📱 Fully Responsive Design – Optimized for mobile/tablet/desktop
 - 🌐 Hosted on Netlify
 
 ---
-## Tech Stack
-React.js + Vite: Fast and efficient frontend framework.
-Material UI (MUI): Components & theming.
-Chart.js: Graphs and visual data.
-Context API: State management for auth & theme
-Netlify: Live deployment.
-React Router: Navigation and redirection.
-# How to Run Locally
 
-1. Clone the Repository
+## 🛠️ Tech Stack
+
+- **React.js + Vite** – Fast and efficient frontend framework
+- **Material UI (MUI)** – UI components and theming
+- **Chart.js** – Graphs and visualizations
+- **Context API** – Global state for auth & theme
+- **React Router** – Navigation and route protection
+- **Netlify** – Live deployment
+
+---
+
+## 💻 How to Run Locally
+
+### 1. Clone the Repository
 ```bash
-https://github.com/Rithika-172/Fitness-Tracker-Dashboard
-cd fittracker-project
-
+git clone https://github.com/Rithika-172/Fitness-Tracker-Dashboard.git
+cd Fitness-Tracker-Dashboard
 2. Install Dependencies
 npm install
-
-3. Start the Dev Server
+3. Start the Development Server
 npm run dev
+Then visit: http://localhost:5173
 
-** Highlights **
-Toggle View: Easily switch between Daily / Weekly / Monthly data using tabs
-Stat Cards: Steps, Calories, Heart Rate, Active Time, Water Intake
+✨ Highlights
+🔁 Toggle View
+Switch between Daily, Weekly, and Monthly statistics using tabs
 
-Visual progress bars + percentage completion
-Charts
-ActivityChart: Line chart of steps & calories
-WorkoutChart: Bar chart of duration by workout type
-CalorieChart: Doughnut chart for calorie distribution
+📊 Charts
+ActivityChart: Line chart showing calories and steps
 
-Activity Log
-View activity history in a tabular format
+WorkoutChart: Bar chart visualizing workout durations
 
-👤 Auth (Sign In / Sign Up)
-Protected dashboard route
+CalorieChart: Doughnut chart of calorie breakdown
 
-User redirected post-login
+🧾 Stat Cards
+Cards for steps, calories, heart rate, water intake, and active time
 
-🌓 Dark / Light Mode
-Auto-switches based on system theme or toggle button (in Header)
+Visual progress bars and completion percentage
+
+📋 Activity Log
+View workout and activity history in a dynamic table
+
+👤 Authentication
+Sign In / Sign Up pages using React Router
+
+Redirect to dashboard after login
+
+Protected dashboard route (only visible to authenticated users)
+
+🌓 Dark Mode / Light Mode
+Theme switches based on system preference or user toggle
+
+Implemented using MUI theming and Context API
+
+
+src/
+├── assets/                  # Images, logos
+├── components/
+│   ├── Auth/               # SignIn, SignUp
+│   ├── Dashboard/          # Charts, Stats, Logs
+│   └── Layout/             # Header, Navigation
+├── contexts/               # AuthContext, ThemeContext
+├── data/                   # mockData.js
+├── App.jsx
+├── main.jsx
+
+
+
