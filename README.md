@@ -2,7 +2,7 @@ FitTracker Dashboard  - Personal Fitness Tracker Dashboard
 
 Welcome to FitTracker Dashboard , a modern, fully responsive fitness tracking dashboard built with "React", "Material UI", and "Chart.js". This project allows users to monitor their health metrics, analyze workout trends, and track goal progress through clean UI components, theme toggling, and user authentication.
 
-🔗 Live Demo: [https://fitnesstrackerdashboards.netlify.app/signin]
+🔗 Live Demo: [https://fitnesstrackerdashboards.netlify.app/]
 
 ---
 
